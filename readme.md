@@ -27,7 +27,9 @@ The dataset comprises tweets labeled as either disaster or non-disaster, along w
 - `text`: The content of the tweet.
 - `target`: Binary label indicating whether the tweet refers to a real disaster (1) or not (0).
 
-![Description](/Images/Top words for No disaster messages.png)
+![Description](/Images/Top_words_for_disaster_messages.png)
+
+![Description](/Images/Top_words_for_No_disaster_messages.png)
 
 ## Process
 
