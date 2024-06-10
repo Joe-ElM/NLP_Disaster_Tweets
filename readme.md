@@ -27,10 +27,6 @@ The dataset comprises tweets labeled as either disaster or non-disaster, along w
 - `text`: The content of the tweet.
 - `target`: Binary label indicating whether the tweet refers to a real disaster (1) or not (0).
 
-![Description](/Images/Top_words_for_disaster_messages.png)
-
-![Description](/Images/Top_words_for_No_disaster_messages.png)
-
 ## Process
 
 The NLP exploration process encompasses the following steps:
@@ -39,6 +35,38 @@ The NLP exploration process encompasses the following steps:
 2. Feature Extraction with BoW: The Bag-of-Words (BoW) technique is employed to convert text data into numerical features.
 3. Modeling and Evaluation: Various machine learning algorithms are applied to the BoW representation of the text data, and the performance of each model is evaluated using appropriate metrics.
 4. Comparison and Selection: The models' performance is compared, and the most effective one is selected for further refinement and deployment.
+
+## Data Preprocessing Functions
+
+### `remove_url(text)`
+
+Function to remove URLs from text.
+
+### `text_clean(text)`
+
+Function to clean and preprocess text data, including removing URLs, stopwords, and punctuation, and lemmatizing tokens.
+
+### `keyword_clean(text)`
+
+Function to clean keyword text by replacing `%20` with spaces.
+
+## Modeling
+
+The following machine learning algorithms are applied to the preprocessed text data:
+
+- Support Vector Classifier (SVC)
+- Logistic Regression
+- Random Forest
+
+## Visualization
+
+Various visualizations are used to analyze the data and model performance, including:
+
+- Top words for disaster and non-disaster messages
+
+![Top words for disaster messages](/Images/Top_words_for_disaster_messages.png)
+
+![Top words for non-disaster messages](/Images/Top_words_for_No_disaster_messages.png)
 
 ## Conclusion
 
