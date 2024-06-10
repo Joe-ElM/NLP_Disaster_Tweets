@@ -11,13 +11,14 @@ This repository contains a comprehensive exploration of a dataset sourced from t
   - Application of text preprocessing techniques such as lowercasing, tokenization, and removal of stop words, URLs, and special characters.
   - Cleaning and normalization of text data to ensure consistency and enhance model performance.
 
-- Feature Extraction using Bag-of-Words (BoW):
+- Feature Extraction using Bag-of-Words (BoW) and TF-IDF:
 
   - Representation of text data as numerical features using the Bag-of-Words (BoW) technique.
   - Analysis of vocabulary size, feature matrix representation, and identification of common words and phrases in both disaster and non-disaster tweets.
+  - Utilization of TF-IDF (Term Frequency-Inverse Document Frequency) to weigh the importance of words in the corpus.
 
-- Modeling with BoW Representation:
-  - Implementation of machine learning algorithms such as Support Vector Classifier (SVC), Logistic Regression, and Random Forest using BoW features.
+- Modeling with BoW and TF-IDF Representation:
+  - Implementation of machine learning algorithms such as Support Vector Classifier (SVC), Logistic Regression, and Random Forest using BoW and TF-IDF features.
   - Hyperparameter tuning, model optimization, and evaluation of model performance metrics such as F1 score, recall, precision, and accuracy.
 
 ## Dataset Overview
@@ -32,8 +33,8 @@ The dataset comprises tweets labeled as either disaster or non-disaster, along w
 The NLP exploration process encompasses the following steps:
 
 1. Text Preprocessing: The text data undergoes preprocessing to standardize its format and remove noise.
-2. Feature Extraction with BoW: The Bag-of-Words (BoW) technique is employed to convert text data into numerical features.
-3. Modeling and Evaluation: Various machine learning algorithms are applied to the BoW representation of the text data, and the performance of each model is evaluated using appropriate metrics.
+2. Feature Extraction with BoW and TF-IDF: The Bag-of-Words (BoW) and TF-IDF techniques are employed to convert text data into numerical features, with TF-IDF offering a more advanced approach by considering the importance of words in the corpus.
+3. Modeling and Evaluation: Various machine learning algorithms are applied to the BoW and TF-IDF representations of the text data, and the performance of each model is evaluated using appropriate metrics.
 4. Comparison and Selection: The models' performance is compared, and the most effective one is selected for further refinement and deployment.
 
 ## Data Preprocessing Functions
@@ -71,3 +72,5 @@ Various visualizations are used to analyze the data and model performance, inclu
 ## Conclusion
 
 Through this exploration, insights into the structure and content of disaster tweets are gained, facilitating the development of predictive models capable of accurately classifying tweets based on their relevance to real disasters. The utilization of NLP techniques coupled with machine learning algorithms enables the extraction of valuable information from text data, thereby contributing to improved disaster response and management efforts.
+
+It is noteworthy that traditional machine learning algorithms such as SVC, Logistic Regression, and Random Forest may struggle to achieve high accuracy scores beyond 80%. In such cases, more advanced NLP techniques should be considered for better metric scores.
