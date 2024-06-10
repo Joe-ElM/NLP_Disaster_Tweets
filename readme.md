@@ -29,8 +29,6 @@ The dataset comprises tweets labeled as either disaster or non-disaster, along w
 
 ![Description](/Images/Top words for No disaster messages.png)
 
-![Description](/Top words for disaster messages.png)
-
 ## Process
 
 The NLP exploration process encompasses the following steps:
