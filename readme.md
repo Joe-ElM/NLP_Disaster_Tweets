@@ -90,3 +90,8 @@ Various visualizations are used to analyze the data and model performance, inclu
 Through this exploration, insights into the structure and content of disaster tweets are gained, facilitating the development of predictive models capable of accurately classifying tweets based on their relevance to real disasters. The utilization of NLP techniques coupled with machine learning algorithms enables the extraction of valuable information from text data, thereby contributing to improved disaster response and management efforts.
 
 It is noteworthy that traditional machine learning algorithms such as SVC, Logistic Regression, and Random Forest may struggle to achieve high accuracy scores beyond 80%. In such cases, more advanced NLP techniques should be considered for better metric scores.
+
+## Data Source and License
+
+- **Data Source**: [Kaggle Competition - Natural Language Processing with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started)
+- **License**: Dataset available under Kaggle's competition rules and guidelines.
