@@ -28,6 +28,22 @@ The dataset comprises tweets labeled as either disaster or non-disaster, along w
 - `text`: The content of the tweet.
 - `target`: Binary label indicating whether the tweet refers to a real disaster (1) or not (0).
 
+## Visualization
+
+Various visualizations are used to analyze the data and model performance, including:
+
+### Histogram of Tweet Lengths
+
+![Histogram of Tweet Lengths](/Images/histo.png)
+
+This histogram visualizes the distribution of tweet lengths in the dataset. The x-axis represents the length of the tweets, and the y-axis represents the frequency of tweets with that length. The histogram is divided into two categories based on the target variable: tweets related to disasters and tweets not related to disasters. The plot provides insights into the distribution of tweet lengths and their association with disaster-related content.
+
+### Pie Chart of Target Distribution
+
+![Pie Chart of Target Distribution](/Images/pie.png)
+
+This pie chart illustrates the distribution of classes within the dataset. The chart displays the proportion of tweets classified as 'ham' (non-disaster) and 'spam' (disaster) based on the target variable. Each segment of the pie chart represents a class, with the percentage of tweets belonging to each class displayed. The pie chart offers a visual representation of the class distribution, highlighting the balance or imbalance between disaster and non-disaster tweets.
+
 ## Process
 
 The NLP exploration process encompasses the following steps:
